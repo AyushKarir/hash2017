@@ -1,0 +1,122 @@
+@font-face {
+	font-family:neo;
+	src: url(fonts/neo.otf) format("opentype");
+	
+}
+@font-face {
+  font-family:neu;
+  src: url(fonts/neurial.otf);
+}
+@font-face {
+	font-family:nexa;
+	src: url(fonts/NexaBold.otf);
+}
+@font-face {
+  font-family:CaviarDreams;
+  src: url(fonts/CaviarDreams.ttf);
+}
+.body{
+	background-color: #1881fa;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.guidedes1 span a{
+	text-decoration: none;
+	color: #fff;
+}
+.guidedes1 a{
+	text-decoration: none;
+	color: #fff;
+}
+.head{
+	color: #fff;
+	font-family:nexa;
+	font-weight: 800;
+	font-size: 70px;
+	letter-spacing: 10px;
+	text-shadow: 5px 5px solid rgba(0,0,0,.7);
+
+}
+.hedlin{
+	width: 150px;
+	margin-top: 10px;
+	height: 5px;
+	background-color: #fff;
+	margin-left: 15px;
+}
+.main{
+	margin-top: 10vh;
+	margin-left: 5vh;
+
+}
+.deshead{
+	font-family:CaviarDreams;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 30px;
+	font-weight: 800;
+}
+.guidehead{
+	font-family:nexa;
+	font-size: 50px;
+	color: #fff;
+	margin-top: 6vh;
+	font-weight: 800;
+}
+.guidedes{
+	font-family: neo;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 20px;
+	font-weight: 800;
+}
+.guidedes1{
+	font-family: neo;
+	font-size: 20px;
+	width: 70%;
+	color: #fff;
+	margin-top: 10px;
+	font-weight: 800;
+	line-height: 40px;
+	margin-left: 20px;
+}
+.guidedes1 ul{
+	list-style-type: circle;
+
+}
+.guidedes1 span{
+	font-weight: 1000;
+	font-size: 25px;
+	font-family:nexa;
+}
+.button{
+	margin-top: 50px;
+	height: 50px;
+	width: 150px;
+	border: 2px solid #fff;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: transparent;
+	cursor: pointer;
+	color: #fff;
+	font-family:nexa;
+	margin-left: 45%;
+	margin-bottom: 30px;
+	font-weight: 800;
+}
+.button:hover{
+	background-color: white;
+	color: #444;
+}
+img{
+	height: auto;
+	width: auto;
+	transform: rotate(-90deg);
+	margin-left: 30%;
+
+}
+

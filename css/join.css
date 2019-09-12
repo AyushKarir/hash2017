@@ -1,0 +1,222 @@
+@font-face {
+  font-family:neo;
+  src: url(fonts/neo.ttf);
+  
+}
+@font-face {
+	font-family:advent;
+	src: url(fonts/adventpro-regular.ttf);
+}
+@font-face {
+  font-family:neu;
+  src: url(fonts/neurial.otf);
+}
+@font-face{
+  src:url('fonts/billyohio.otf');
+  font-family:bill;
+}
+a{
+  text-decoration: none;
+}
+
+
+.images{
+	margin-top: 200px;
+}
+    @media only screen and (max-width: 400px) {
+      .images{
+        margin-top: 100px;
+       
+              }
+              .button{
+                margin-top: -150px;
+
+              }
+              .mar_top{
+                margin-top: -70px;
+              }
+    
+      }
+.mar_top{
+}
+.image_2{
+	margin-right: 5px;
+	height: auto;
+	width: 120px;
+	background-repeat: no-repeat;
+}
+.position{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+@media only screen
+  and (min-device-width: 100px)
+  and (max-device-width: 900px)
+  {
+
+  		.image_1{
+  			height: 20px !important;
+  			width: auto !important;
+  		}
+		.image_2{
+  			height: 20px !important;
+  			width: auto !important;
+		}
+}
+.date{
+	color: #fff;
+	font-size: 48px;
+	font-family:"advent";
+	margin-top: 28px;
+}
+
+.button {
+  background-image: -webkit-linear-gradient(106deg, #E5474B 50%, #c43d40 50%);
+  background-image: linear-gradient(-16deg, #E5474B 50%, #c43d40 50%);
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  padding: 20px 40px 25px;
+  position: relative;
+  max-width: 100%;
+  font-family:neo;
+
+}
+.button:after {
+  content: "";
+  background: #fff;
+  height: 1px;
+  width: 15%;
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 37%;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+.button:hover {
+  color: #fff;
+}
+.button:hover:after {
+  width: 70%;
+  left: 15%;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.color_bg_2{
+	width: 100%;
+	height: 383px;
+	background-image: url("joinbck.jpg");
+    background-position: center top;
+  margin-right: -15px;
+}
+.timer{
+	font-size: 40px;
+}
+.timer_position{
+	margin-top: 20px;
+}
+span {
+  display: block;
+  font-size: 20px;
+  color: #4d4d4d;
+}
+#days {
+  font-size: 100px;
+  color: #ffffff;
+}
+#hours {
+  font-size: 100px;
+  color: #ffffff;
+  text-decoration: overline;
+}
+#minutes {
+  font-size: 100px;
+  color: #ffffff;
+}
+#seconds {
+  font-size: 100px;
+  color: #ffffff;
+}
+@media(max-width: 622px)
+{
+  header ul li{
+    font-size: 10px;
+  }
+  .topimg{
+    width: 110px;
+    margin-top: 150px;
+  }
+  .gallery_head{
+    font-size: 30px;
+    margin-top: 170px;
+  }
+
+}
+@media(max-width: 620px)
+{
+  header ul li{
+    font-size: 15px;
+
+  }
+
+}
+@media(max-width: 450px)
+{
+  header ul li{
+    font-size: 6px;
+    margin-top: -20px;
+
+  }
+  .image_2{
+    width: 20%;
+    height: auto;
+  }
+
+
+.button {
+  background-image: -webkit-linear-gradient(106deg, #E5474B 50%, #c43d40 50%);
+  background-image: linear-gradient(-16deg, #E5474B 50%, #c43d40 50%);
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  padding: 10px 20px 12.5px;
+  position: relative;
+  max-width: 100%;
+  font-family:neo;
+
+}
+
+
+.button:hover:after {
+  width: 70%;
+  left: 15%;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,372 @@
+@font-face {
+  font-family:neo;
+  src: url(fonts/neo.ttf);
+  
+}
+@font-face{
+  src:url('fonts/billyohio.otf');
+  font-family:bill;
+}
+@font-face{
+  src:url('fonts/ohio.ttf');
+  font-family:bill;
+}
+
+body{
+  background-color: #1881fa;
+}
+
+header{z-index: 102;
+  width: 100%;
+  position: absolute;
+  background-color: #252525;
+  top: 0px;
+  left: 0px;
+  }
+header img{
+  width: 60px;
+  float: left;
+  padding:  10px;
+
+
+}
+header ul{
+  list-style-type: none;
+  float: right;
+  margin-right: 70px;
+}
+header ul li{
+float: right;
+cursor: pointer;
+display: inline-block;
+font-size: 17px;
+color: #fff;
+padding-right: 10px;
+padding-top: 10px;
+margin-right: 10px;
+font-family:neo;
+
+}
+
+.underline {
+  width: 0px;
+  height: 2px;
+  background: #4db7f8;
+  top: 25px;
+  transition: all .25s ease;
+ }
+
+li:hover .underline {
+  width: 100%; }
+.topimg{
+  width: 150px;
+  margin-top: 15%;
+  margin-left: 43%;
+
+}
+
+#top
+  {
+      background-image: -webkit-linear-gradient(38deg, #4b9efd, #4b9efd 50%, #2196f3 50%, #2196f3 100%);
+  color: #EB8C79; 
+  height:100%;
+  width: 100%;
+  left: 0;
+  background-position: center top;
+  top: 0;
+  position: absolute;
+  z-index: 105;
+  background-size: cover;
+  -webkit-filter: brightness(90%);
+}
+
+
+
+.tag{
+    color: #fff;
+    text-align: center;
+   font-family:bill; 
+   letter-spacing: 1px;
+   font-size: 120px;
+   text-shadow: 2px 2px rgba(0,0,0,.2);
+   margin-top: 40vh;  
+  transition: .8s;
+  user-select: none;
+  -webkit-user-select: none;
+
+}
+.tag:hover{
+  opacity: .6;
+  transition: .8s;
+}
+
+
+.img{
+  width:370px;
+  height:300px;
+  background-color:red;
+  border-radius: 10%;
+  margin-left: 20px;
+}
+
+.img1{
+  width:370px;
+  height:300px;
+  background-color:red;
+  border-radius: 10%;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+
+.a {
+  position: fixed;
+  left: 50%;
+  color: palegreen;
+  transform: translate3d(-50%, -50%, 0);
+  padding: 0.7em calc(0.7em * 1.2);
+  display: inline-block;
+  border: 3px solid transparent;
+  position: relative;
+  font-size: 1.5em;
+  letter-spacing: 0.07em;
+  margin-top: 50px;
+  text-decoration: none;
+}
+.a .text {
+  font-family:neo;
+  transform: translate3d(0, 0.7em, 0);
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+  color: white;
+  font-size: 30px;
+}
+.a:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: calc(0.7em * 1.2);
+  right: calc(0.7em * 1.2);
+  height: 3px;
+  background: #fff;
+  z-index: -1;
+  transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+  transform-origin: left;
+}
+
+.line {
+  position: absolute;
+  background: #fff;
+}
+.line.-right, .line.-left {
+  width: 3px;
+  bottom: -3px;
+  top: -3px;
+  transform: scale3d(1, 0, 1);
+}
+.line.-top, .line.-bottom {
+  height: 3px;
+  left: -3px;
+  right: -3px;
+  transform: scale3d(0, 1, 1);
+}
+.line.-right {
+  right: -3px;
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+  transform-origin: top;
+}
+.line.-top {
+  top: -3px;
+  transition: transform 0.08s linear 0.43s;
+  transform-origin: left;
+}
+.line.-left {
+  left: -3px;
+  transition: transform 0.08s linear 0.51s;
+  transform-origin: bottom;
+}
+.line.-bottom {
+  bottom: -3px;
+  transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+  transform-origin: right;
+}
+
+a:hover .text,
+a:active .text {
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+a:hover:after,
+a:active:after {
+  transform: scale3d(0, 1, 1);
+  right: -3px;
+  left: -3px;
+  transform-origin: right;
+  transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+}
+a:hover .line,
+a:active .line {
+  transform: scale3d(1, 1, 1);
+}
+a:hover .line.-right,
+a:active .line.-right {
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+  transform-origin: bottom;
+}
+a:hover .line.-top,
+a:active .line.-top {
+  transition: transform 0.08s linear 0.4s;
+  transform-origin: right;
+}
+a:hover .line.-left,
+a:active .line.-left {
+  transition: transform 0.08s linear 0.48s;
+  transform-origin: top;
+}
+a:hover .line.-bottom,
+a:active .line.-bottom {
+  transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+  transform-origin: left;
+}
+
+
+
+.width{
+  position: relative;
+  width: 20%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.imgcont{
+  height: 300px;
+  width: 250px;
+  border: 2px solid #fff;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow:  rgba(68,68,68,.2) 6px 6px 7px;
+
+}
+
+.eveimg{
+  width: 170px;
+  height: 170px;
+  margin-top: 10px;
+  border-radius: 100%;
+  align-items: center;
+}
+
+.evedes{
+  text-align: center;
+  font-size: 24px;
+  margin-top: 25px;
+  color: #444;
+  font-family:neo;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.eveline{
+  width: 200px;
+  height: 1px;
+  border: 2px solid #1881fa;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  background-color: transparent;
+  margin-left: 2.5vh;
+  margin-top: 15px;
+  color: palegreen;
+}
+
+.eve{
+   text-align: center;
+  font-size: 18px;
+  margin-top: -9px;
+  color: #888;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family:neo;
+}
+
+.end{
+  font-size: 20px;
+  color: white;
+  margin-top: 3000px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+@media(max-width: 450px)
+{
+  header ul li{
+    font-size: 8px;
+  }
+  
+  
+}
+@media(max-width: 1200px)
+{
+  .width{
+    width: 25%;
+  }
+  
+  
+}
+@media(max-width: 1090px)
+{
+  .width{
+    width: 40%;
+  }
+  
+  
+}
+@media(max-width: 659px)
+{
+  .width{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .tag{
+    font-size: 90px;
+  }
+  header ul{
+    margin-right: 0px;
+    padding: 0px; 
+    margin-top: -15px;
+  }
+  header img{
+    width: 5%;
+  }
+  
+  
+}
+@media(max-width: 500px)
+{
+  header ul li{
+    font-size: 6px;
+    margin-top: 20px;
+  }
+
+
+}
+@media(max-width: 650px)
+{
+  header ul{
+    margin-right: 20px;
+  }
+
+
+}

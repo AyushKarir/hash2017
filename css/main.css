@@ -1,0 +1,111 @@
+@font-face {
+  font-family:neo;
+  src: url(fonts/neotech.otf) format("opentype");
+  
+}
+@font-face{
+  src:url('fonts/billyohio.otf');
+  font-family:bill;
+}
+
+@font-face {
+  font-family:neu;
+  src: url(fonts/neurial.otf);
+}
+
+
+/*Header Class*/
+
+
+header{z-index: 1000;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+header img{
+  width: 60px;
+  float: left;
+  padding:  10px;
+
+
+}
+header ul{
+  list-style-type: none;
+  float: right;
+  margin-right: 70px;
+}
+header ul li{
+  float: right;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+    color: #fff;
+    padding: 10px; 
+    margin-right: 10px;
+    margin-top: 12px;
+    font-family:neo;
+
+}
+
+.underline {
+  width: 0px;
+  height: 2px;
+  background: #4db7f8;
+  top: 25px;
+  transition: all .25s ease;
+ }
+
+li:hover .underline {
+  width: 100%; }
+.topimg{
+	width: 150px;
+	margin-top: 15%;
+	margin-left: 43%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Header class*/
+
+/*
+vertical carousel
+*/
+
+
+
+/*Navigation section font-family: 'Satisfy', serif;*/
+
+
+/*Navigation section*/
+
+.icon_szie{
+	margin: 0 !important; 
+}
+/*
+Footer Ends Here
+*/
+.hashgif{
+
+	
+	height: 30px;
+	width: auto;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ie-user-select:none;	
+
+
+}
